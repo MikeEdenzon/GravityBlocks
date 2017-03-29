@@ -10,18 +10,24 @@
 		AD630C531E8C0B5D007650F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD630C521E8C0B5D007650F5 /* AppDelegate.swift */; };
 		AD630C551E8C0B5D007650F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD630C541E8C0B5D007650F5 /* ViewController.swift */; };
 		AD630C581E8C0B5D007650F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD630C561E8C0B5D007650F5 /* Main.storyboard */; };
-		AD630C5A1E8C0B5D007650F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD630C591E8C0B5D007650F5 /* Assets.xcassets */; };
 		AD630C5D1E8C0B5D007650F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD630C5B1E8C0B5D007650F5 /* LaunchScreen.storyboard */; };
+		AD630C671E8C0B6E007650F5 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD630C641E8C0B6E007650F5 /* Rectangle.swift */; };
+		AD630C681E8C0B6E007650F5 /* Ellipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD630C651E8C0B6E007650F5 /* Ellipse.swift */; };
+		AD630C691E8C0B6E007650F5 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD630C661E8C0B6E007650F5 /* Colors.swift */; };
+		AD630C6B1E8C0B7F007650F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD630C6A1E8C0B7F007650F5 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AD630C4F1E8C0B5D007650F5 /* GravityBlocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GravityBlocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD630C4F1E8C0B5D007650F5 /* Gravity Blocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gravity Blocks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD630C521E8C0B5D007650F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD630C541E8C0B5D007650F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AD630C571E8C0B5D007650F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AD630C591E8C0B5D007650F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD630C5C1E8C0B5D007650F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD630C5E1E8C0B5D007650F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD630C641E8C0B6E007650F5 /* Rectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		AD630C651E8C0B6E007650F5 /* Ellipse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ellipse.swift; sourceTree = "<group>"; };
+		AD630C661E8C0B6E007650F5 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		AD630C6A1E8C0B7F007650F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +52,7 @@
 		AD630C501E8C0B5D007650F5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AD630C4F1E8C0B5D007650F5 /* GravityBlocks.app */,
+				AD630C4F1E8C0B5D007650F5 /* Gravity Blocks.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,8 +62,11 @@
 			children = (
 				AD630C521E8C0B5D007650F5 /* AppDelegate.swift */,
 				AD630C541E8C0B5D007650F5 /* ViewController.swift */,
+				AD630C641E8C0B6E007650F5 /* Rectangle.swift */,
+				AD630C651E8C0B6E007650F5 /* Ellipse.swift */,
+				AD630C661E8C0B6E007650F5 /* Colors.swift */,
 				AD630C561E8C0B5D007650F5 /* Main.storyboard */,
-				AD630C591E8C0B5D007650F5 /* Assets.xcassets */,
+				AD630C6A1E8C0B7F007650F5 /* Assets.xcassets */,
 				AD630C5B1E8C0B5D007650F5 /* LaunchScreen.storyboard */,
 				AD630C5E1E8C0B5D007650F5 /* Info.plist */,
 			);
@@ -81,7 +90,7 @@
 			);
 			name = GravityBlocks;
 			productName = GravityBlocks;
-			productReference = AD630C4F1E8C0B5D007650F5 /* GravityBlocks.app */;
+			productReference = AD630C4F1E8C0B5D007650F5 /* Gravity Blocks.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,7 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD630C5D1E8C0B5D007650F5 /* LaunchScreen.storyboard in Resources */,
-				AD630C5A1E8C0B5D007650F5 /* Assets.xcassets in Resources */,
+				AD630C6B1E8C0B7F007650F5 /* Assets.xcassets in Resources */,
 				AD630C581E8C0B5D007650F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD630C671E8C0B6E007650F5 /* Rectangle.swift in Sources */,
+				AD630C691E8C0B6E007650F5 /* Colors.swift in Sources */,
 				AD630C551E8C0B5D007650F5 /* ViewController.swift in Sources */,
+				AD630C681E8C0B6E007650F5 /* Ellipse.swift in Sources */,
 				AD630C531E8C0B5D007650F5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +277,7 @@
 				INFOPLIST_FILE = GravityBlocks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = michaeledenzon.GravityBlocks;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Gravity Blocks";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -278,7 +290,7 @@
 				INFOPLIST_FILE = GravityBlocks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = michaeledenzon.GravityBlocks;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Gravity Blocks";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
