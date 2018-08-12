@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AD630C4E1E8C0B5D007650F5"
-               BuildableName = "GravityBlocks.app"
+               BuildableName = "Gravity Blocks.app"
                BlueprintName = "GravityBlocks"
                ReferencedContainer = "container:GravityBlocks.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AD630C4E1E8C0B5D007650F5"
-            BuildableName = "GravityBlocks.app"
+            BuildableName = "Gravity Blocks.app"
             BlueprintName = "GravityBlocks"
             ReferencedContainer = "container:GravityBlocks.xcodeproj">
          </BuildableReference>
@@ -56,7 +56,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AD630C4E1E8C0B5D007650F5"
-            BuildableName = "GravityBlocks.app"
+            BuildableName = "Gravity Blocks.app"
             BlueprintName = "GravityBlocks"
             ReferencedContainer = "container:GravityBlocks.xcodeproj">
          </BuildableReference>
@@ -75,7 +75,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AD630C4E1E8C0B5D007650F5"
-            BuildableName = "GravityBlocks.app"
+            BuildableName = "Gravity Blocks.app"
             BlueprintName = "GravityBlocks"
             ReferencedContainer = "container:GravityBlocks.xcodeproj">
          </BuildableReference>
