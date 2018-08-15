@@ -7,7 +7,7 @@
   <a href="https://developer.apple.com/documentation/uikit/uigravitybehavior">UIGravityBehavior</a>.
 <br>
 <br>
-  Using <a href="https://developer.apple.com/documentation/coremotion">CoreMotion</a>, the iPhone's accelerometer updates the         it's acceleration data one thousand times per second. At each update interval, <a href="https://developer.apple.com/documentation/uikit/uigravitybehavior">UIGravityBehavior</a> receives the accelerometer data and applies it as a directional vector (Δx, Δy) to each <a href="https://developer.apple.com/documentation/uikit/uidynamicitem">UIDynamicItem</a>, or "block." This gives the illusion that each block is "falling" in the direction that the iPhone is tilted.
+  Using <a href="https://developer.apple.com/documentation/coremotion">CoreMotion</a>, the iPhone's accelerometer updates the         it's acceleration data one thousand times per second. At each update interval, <a href="https://developer.apple.com/documentation/uikit/uigravitybehavior">UIGravityBehavior</a> receives the accelerometer data and applies it as a directional vector (Δx, Δy) to each <a href="https://developer.apple.com/documentation/uikit/uidynamicitem">UIDynamicItem</a>, or "block." The blocks accelerate in the given direction, which is updated on each interval. This gives the illusion that each block is "falling" in the direction that the iPhone is tilted.
 </p>
 <img src="https://github.com/medenzon/GravityBlocks/blob/master/Diagrams/accelerometer.png" width="400px">
 <br>
