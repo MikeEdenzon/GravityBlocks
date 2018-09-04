@@ -1,5 +1,5 @@
 <h1>Gravity Blocks</h1>
-<img src="https://github.com/medenzon/GravityBlocks/blob/master/Diagrams/demo.gif" width="375px" align="right"></img>
+<img src="https://github.com/medenzon/GravityBlocks/blob/master/Diagrams/demo.gif" width="250px" align="right"></img>
 <p>
   Gravity Blocks is an iOS app that demonstrates the use of
   <a href="https://developer.apple.com/documentation/coremotion">CoreMotion</a>,
